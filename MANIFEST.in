@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include assignment_management *.css
+recursive-include assignment_management *.csv
+recursive-include assignment_management *.html
+recursive-include assignment_management *.ico
+recursive-include assignment_management *.js
+recursive-include assignment_management *.json
+recursive-include assignment_management *.md
+recursive-include assignment_management *.png
+recursive-include assignment_management *.py
+recursive-include assignment_management *.svg
+recursive-include assignment_management *.txt
+recursive-exclude assignment_management *.pyc
